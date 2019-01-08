@@ -1,6 +1,9 @@
 // Find the maximum
 
 function maxOfTwoNumbers(a, b) {
+
+
+
   return a > b ? a : b;
 }
 
@@ -23,6 +26,7 @@ function findLongestWord(words) {
 
   }
   return longestWord;
+  }
 }
 findLongestWord(words);
 
